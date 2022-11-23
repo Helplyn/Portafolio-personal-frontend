@@ -1,0 +1,40 @@
+* {
+    transition: all ls;
+    }
+    body {
+    background-color: #333;
+    padding: 100px
+    }
+    .logo-windows {
+        perspective: 100px;
+    }
+    .box-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    width: fit-content;
+    transform-style: preserve-3d;
+    transform: rotateY(-5deg);
+    }
+    .box {
+        width: 150px;
+        height: 100px;
+        background: white;
+        border: lpx solid;
+    }
+    .box-1 {
+        border-top-left-radius: 13%;
+        background: linear-gradient(135deg, #0ac5ff, #1582D5);
+        }
+    .box-2 {
+        border-top-right-radius: 13%;
+        background: linear-gradient(135deg, #54DAFF, #25A2E5);
+        }
+    .box-3 {
+        border-bottom-left-radius: 13%;
+        background: linear-gradient(135deg, #1784D8, #0864C5);
+        }
+    .box-4 {
+        border-bottom-right-radius: 13%;
+        background: linear-gradient(135deg, #31ABEC, #1582D5);
+    }
